@@ -26,12 +26,12 @@ export function NotificationSection({ notifications }: NotificationSectionProps)
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             eyebrow="Announcements"
-            title="Latest updates from Meridian & Co."
-            description="Stay informed with strategic insights, client milestones, and upcoming advisory sessions."
+            title="Latest updates from Meridian Academy."
+            description="Admissions, academic calendars, events, and important school notices in one place."
           />
           <div className="rounded-2xl border border-border bg-muted px-6 py-4 text-sm text-muted-foreground">
             <p className="font-semibold text-foreground">Latest announcement</p>
-            <p>Only the most current active update is highlighted.</p>
+            <p>Only the most current active notice is highlighted here.</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ export function NotificationSection({ notifications }: NotificationSectionProps)
 
         <div className="space-y-6">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-            Archive
+            Previous notices
           </p>
           <StaggerGroup className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {recent.map((notification) => (

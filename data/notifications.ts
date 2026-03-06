@@ -3,55 +3,55 @@ import type { Notification } from "@/lib/notifications";
 export const notifications: Notification[] = [
   {
     id: "n-1001",
-    title: "Q2 Strategy Briefing Released",
+    title: "Admissions Open for 2026-27 Academic Year",
     message:
-      "Our latest quarterly briefing outlines market signals, risk scenarios, and growth priorities for executive teams.",
-    date: "2026-02-28",
+      "Submit applications for Kindergarten through Grade 12. Early submissions receive priority scheduling.",
+    date: "2026-02-26",
     active: true,
-    category: "Insights",
+    category: "Admissions",
     link: {
-      label: "Read the summary",
+      label: "Start application",
       href: "#contact",
     },
   },
   {
     id: "n-1002",
-    title: "Client Operations Playbook v3",
+    title: "Spring Term Assessment Schedule",
     message:
-      "Updated playbook with streamlined governance, KPI templates, and execution rhythms for distributed teams.",
-    date: "2026-02-14",
+      "Midterm assessments begin March 18. Timetables are now available for all grade levels.",
+    date: "2026-02-15",
     active: true,
-    category: "Operations",
+    category: "Academics",
   },
   {
     id: "n-1003",
-    title: "Meridian Executive Roundtable",
+    title: "Founders Day and Community Showcase",
     message:
-      "A private session on resilient growth strategy with leaders across technology, logistics, and healthcare.",
+      "Join us on April 5 for student performances, exhibitions, and campus tours.",
     date: "2026-01-30",
     active: true,
     category: "Events",
     link: {
-      label: "Request an invite",
+      label: "View event details",
       href: "#contact",
     },
   },
   {
     id: "n-1004",
-    title: "Sustainability Benchmark Report",
+    title: "Winter Break Notice",
     message:
-      "New benchmarking data highlighting the operational impact of sustainability initiatives across 120 firms.",
+      "Campus will be closed from December 23 through January 2. Classes resume January 3.",
     date: "2026-01-05",
     active: false,
-    category: "Research",
+    category: "Holiday",
   },
   {
     id: "n-1005",
-    title: "Client Success: AeroTech Expansion",
+    title: "STEM Lab Expansion Completed",
     message:
-      "Scaled a multi-region program launch in eight weeks with a 24% increase in operating efficiency.",
+      "New robotics and design labs are now open for middle and high school students.",
     date: "2025-12-15",
     active: false,
-    category: "Case Study",
+    category: "Campus Life",
   },
 ];

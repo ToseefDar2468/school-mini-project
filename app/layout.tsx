@@ -14,16 +14,16 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   title: {
-    default: "Meridian & Co. | Strategic Business Advisory",
-    template: "%s | Meridian & Co.",
+    default: "Meridian Academy | Academic Excellence for Every Learner",
+    template: "%s | Meridian Academy",
   },
   description:
-    "Meridian & Co. helps organizations modernize operations, unlock growth, and deliver measurable results through strategic advisory and execution.",
+    "Meridian Academy is a modern school focused on academic excellence, character development, and a supportive learning environment.",
   metadataBase: new URL("https://example.com"),
   openGraph: {
-    title: "Meridian & Co. | Strategic Business Advisory",
+    title: "Meridian Academy | Academic Excellence for Every Learner",
     description:
-      "A modern advisory firm helping leaders align strategy, operations, and execution.",
+      "A modern school committed to strong academics, inspired teaching, and student growth.",
     type: "website",
   },
   robots: {

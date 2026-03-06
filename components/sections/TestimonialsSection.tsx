@@ -5,21 +5,21 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 const testimonials = [
   {
     quote:
-      "Meridian brought structure to our growth plan and helped us execute across five markets in a single quarter.",
+      "Meridian Academy has helped my daughter build confidence while excelling academically. The teachers truly know each student.",
     name: "Elena Ramirez",
-    title: "Chief Strategy Officer, Northbridge Health",
+    title: "Parent, Grade 9",
   },
   {
     quote:
-      "Their team embedded with ours and delivered a transformation roadmap that was both practical and ambitious.",
+      "The balance between academics and activities is outstanding. My son loves the robotics lab and debate club.",
     name: "Michael Chen",
-    title: "COO, Velocity Industrial",
+    title: "Parent, Grade 7",
   },
   {
     quote:
-      "We finally have a governance rhythm that keeps leadership and frontline teams aligned every week.",
+      "The college counseling program was exceptional. I felt prepared and supported throughout every application.",
     name: "Amelia Foster",
-    title: "VP Operations, Horizon Logistics",
+    title: "Alumni, Class of 2024",
   },
 ];
 
@@ -29,8 +29,8 @@ export function TestimonialsSection() {
       <Container className="space-y-12">
         <SectionHeading
           eyebrow="Testimonials"
-          title="Leaders trust Meridian when execution matters most."
-          description="We partner with leadership teams who demand strategic clarity and operational precision."
+          title="Families trust Meridian Academy with their children's future."
+          description="Hear from parents and alumni about the learning experience and supportive community."
         />
         <StaggerGroup className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((item) => (
@@ -39,7 +39,7 @@ export function TestimonialsSection() {
               className="flex h-full flex-col justify-between rounded-2xl border border-border bg-surface p-6 shadow-sm"
             >
               <p className="text-sm leading-relaxed text-muted-foreground">
-                “{item.quote}”
+                "{item.quote}"
               </p>
               <div className="mt-6">
                 <p className="text-sm font-semibold text-foreground">

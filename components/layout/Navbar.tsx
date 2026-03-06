@@ -9,8 +9,9 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Insights", href: "#notifications" },
+  { label: "Programs", href: "#services" },
+  { label: "Faculty", href: "#faculty" },
+  { label: "Announcements", href: "#notifications" },
   { label: "Why Us", href: "#features" },
   { label: "Contact", href: "#contact" },
 ];
@@ -50,7 +51,7 @@ export function Navbar() {
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground font-display">
             M
           </span>
-          <span className="font-display">Meridian & Co.</span>
+          <span className="font-display">Meridian Academy</span>
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground lg:flex">
@@ -70,13 +71,13 @@ export function Navbar() {
             href="#contact"
             className={buttonClasses({ variant: "outline", size: "sm" })}
           >
-            Book a call
+            Contact admissions
           </Link>
           <Link
             href="#contact"
             className={buttonClasses({ variant: "primary", size: "sm" })}
           >
-            Request proposal
+            Apply for admission
           </Link>
         </div>
 
@@ -115,7 +116,7 @@ export function Navbar() {
                     className: "w-full",
                   })}
                 >
-                  Book a call
+                  Contact admissions
                 </Link>
                 <Link
                   href="#contact"
@@ -126,7 +127,7 @@ export function Navbar() {
                     className: "w-full",
                   })}
                 >
-                  Request proposal
+                  Apply for admission
                 </Link>
               </div>
             </Container>

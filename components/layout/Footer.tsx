@@ -3,8 +3,9 @@ import { Container } from "@/components/ui/Container";
 
 const quickLinks = [
   { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Insights", href: "#notifications" },
+  { label: "Programs", href: "#services" },
+  { label: "Faculty", href: "#faculty" },
+  { label: "Announcements", href: "#notifications" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -23,11 +24,11 @@ export function Footer() {
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground font-display">
               M
             </span>
-            <span className="font-display">Meridian & Co.</span>
+            <span className="font-display">Meridian Academy</span>
           </div>
           <p className="text-sm leading-relaxed text-muted-foreground">
-            A modern advisory partner helping leaders align strategy, operations,
-            and execution for measurable growth.
+            A future-ready school focused on academic excellence, character
+            development, and an inspiring learning environment.
           </p>
         </div>
 
@@ -47,7 +48,7 @@ export function Footer() {
         <div className="space-y-3 text-sm">
           <p className="font-semibold text-foreground">Contact</p>
           <ul className="space-y-2 text-muted-foreground">
-            <li>hello@meridianandco.com</li>
+            <li>admissions@meridianacademy.edu</li>
             <li>+1 (415) 555-0136</li>
             <li>101 Market Street, San Francisco</li>
           </ul>
@@ -68,7 +69,7 @@ export function Footer() {
       </Container>
 
       <Container className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-        <p>© 2026 Meridian & Co. All rights reserved.</p>
+        <p>© 2026 Meridian Academy. All rights reserved.</p>
         <p>Privacy Policy · Terms of Service</p>
       </Container>
     </footer>

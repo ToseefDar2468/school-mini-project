@@ -2,10 +2,10 @@ import { AnimatedSection, StaggerGroup, StaggerItem } from "@/components/ui/Anim
 import { Container } from "@/components/ui/Container";
 
 const stats = [
-  { value: "120+", label: "Enterprise leaders advised globally" },
-  { value: "34%", label: "Average efficiency gain across engagements" },
-  { value: "18", label: "Industry playbooks delivered in 2025" },
-  { value: "95%", label: "Client retention over the last three years" },
+  { value: "1,250+", label: "Students enrolled across all grade levels" },
+  { value: "98%", label: "Graduation and university placement rate" },
+  { value: "85+", label: "Qualified teachers and academic mentors" },
+  { value: "28", label: "Clubs, teams, and enrichment programs" },
 ];
 
 export function StatsSection() {

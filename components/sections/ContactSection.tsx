@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 const contactCards = [
   {
     title: "Email",
-    detail: "hello@meridianandco.com",
+    detail: "admissions@meridianacademy.edu",
     icon: Mail,
   },
   {
@@ -16,7 +16,7 @@ const contactCards = [
     icon: Phone,
   },
   {
-    title: "Office",
+    title: "Campus",
     detail: "101 Market Street, San Francisco",
     icon: MapPin,
   },
@@ -28,8 +28,8 @@ export function ContactSection() {
       <Container className="space-y-12">
         <SectionHeading
           eyebrow="Contact"
-          title="Start a conversation with our advisory team."
-          description="Tell us about your goals and we will respond with a tailored plan of action."
+          title="Contact admissions for tours, applications, or inquiries."
+          description="Our admissions team is ready to guide you through the next steps."
         />
 
         <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr]">
@@ -57,10 +57,10 @@ export function ContactSection() {
             </StaggerGroup>
             <div className="rounded-2xl border border-border bg-gradient-to-br from-primary/10 via-background to-secondary/10 p-6 text-sm text-muted-foreground shadow-sm">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
-                Office location
+                Campus location
               </p>
               <p className="mt-3 text-sm">
-                Map placeholder for 101 Market Street, San Francisco.
+                Map placeholder for Meridian Academy campus.
               </p>
               <div className="mt-4 aspect-[5/3] rounded-xl border border-border bg-surface/70" />
             </div>
@@ -101,22 +101,22 @@ export function ContactSection() {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-xs font-semibold text-foreground">
-                  How can we help?
-                </label>
-                <textarea
-                  rows={4}
-                  placeholder="Tell us about your goals or challenges."
-                  className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-sm text-foreground outline-none transition focus:border-primary/50 focus:ring-2 focus:ring-primary/20"
-                />
-              </div>
-              <div className="flex flex-wrap items-center justify-between gap-4">
-                <p className="text-xs text-muted-foreground">
-                  This form is currently for demonstration purposes only.
-                </p>
-                <Button type="button" size="lg">
-                  Send message
-                </Button>
+                  <label className="text-xs font-semibold text-foreground">
+                    How can we help?
+                  </label>
+                  <textarea
+                    rows={4}
+                    placeholder="Tell us about the grade level and any questions."
+                    className="w-full rounded-xl border border-border bg-surface px-4 py-3 text-sm text-foreground outline-none transition focus:border-primary/50 focus:ring-2 focus:ring-primary/20"
+                  />
+                </div>
+                <div className="flex flex-wrap items-center justify-between gap-4">
+                  <p className="text-xs text-muted-foreground">
+                    This form is currently for demonstration purposes only.
+                  </p>
+                  <Button type="button" size="lg">
+                    Submit inquiry
+                  </Button>
               </div>
             </form>
           </div>

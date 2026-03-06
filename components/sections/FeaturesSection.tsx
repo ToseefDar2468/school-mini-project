@@ -5,27 +5,27 @@ import { Award, Sparkles, Target, Users } from "lucide-react";
 
 const features = [
   {
-    title: "Executive-level rigor",
+    title: "Experienced faculty",
     description:
-      "Senior advisors with deep sector experience lead every engagement.",
+      "Highly qualified teachers who mentor students with care and expertise.",
     icon: Award,
   },
   {
-    title: "Outcome-driven delivery",
+    title: "Modern classrooms",
     description:
-      "We align on measurable KPIs and build operating rhythms that keep teams focused.",
+      "Technology-enabled learning spaces that encourage curiosity and collaboration.",
     icon: Target,
   },
   {
-    title: "Collaborative partnership",
+    title: "Balanced growth",
     description:
-      "Embedded teams that work alongside your leaders and frontline teams.",
+      "A healthy mix of academics, athletics, arts, and community service.",
     icon: Users,
   },
   {
-    title: "Future-ready insights",
+    title: "Student-centered learning",
     description:
-      "Research-backed insights and scenario planning for long-term resilience.",
+      "Personalized guidance that helps every learner achieve their potential.",
     icon: Sparkles,
   },
 ];
@@ -36,8 +36,8 @@ export function FeaturesSection() {
       <Container className="space-y-12">
         <SectionHeading
           eyebrow="Why Meridian"
-          title="A differentiated advisory model built for speed and precision."
-          description="Our approach blends strategic advisory with operational delivery to help leadership teams execute with confidence."
+          title="A learning environment built for excellence and wellbeing."
+          description="We prioritize strong academics, supportive mentorship, and a community culture that helps students thrive."
         />
 
         <StaggerGroup className="grid gap-6 md:grid-cols-2">

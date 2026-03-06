@@ -12,39 +12,39 @@ import {
 
 const services = [
   {
-    title: "Strategy & Growth",
+    title: "Academic Programs",
     description:
-      "Market positioning, portfolio prioritization, and growth plans built for execution.",
+      "A challenging curriculum from early years through senior grades, aligned with global standards.",
     icon: LineChart,
   },
   {
-    title: "Operational Excellence",
+    title: "Student Development",
     description:
-      "End-to-end process redesign, KPI governance, and efficiency programs.",
+      "Leadership, mentoring, and wellbeing programs that support every student's growth.",
     icon: Workflow,
   },
   {
-    title: "Risk & Resilience",
+    title: "Co-Curricular Life",
     description:
-      "Scenario planning and mitigation frameworks that keep leadership ahead of disruption.",
+      "Sports, arts, and clubs that build confidence, teamwork, and creativity.",
     icon: ShieldCheck,
   },
   {
-    title: "Transformation Office",
+    title: "Digital Learning",
     description:
-      "Program management and transformation cadence for multi-team initiatives.",
+      "Technology-enabled classrooms, blended learning, and modern academic tools.",
     icon: Briefcase,
   },
   {
-    title: "Enterprise Enablement",
+    title: "Career Guidance",
     description:
-      "Organizational design, talent alignment, and leadership operating rhythms.",
+      "Academic counseling, university readiness, and future pathway planning.",
     icon: Building2,
   },
   {
-    title: "Global Expansion",
+    title: "Safe Campus",
     description:
-      "Go-to-market strategy and cross-border execution support for new regions.",
+      "Secure facilities, student support services, and strong pastoral care.",
     icon: Globe2,
   },
 ];
@@ -54,9 +54,9 @@ export function ServicesSection() {
     <AnimatedSection id="services" className="bg-surface">
       <Container className="space-y-12">
         <SectionHeading
-          eyebrow="Services"
-          title="Advisory services built for leadership teams that need results."
-          description="We combine strategic insight with hands-on delivery so initiatives move from whiteboard to measurable impact."
+          eyebrow="Programs"
+          title="Holistic programs designed for academic and personal success."
+          description="From rigorous academics to co-curricular excellence, we provide a balanced education that prepares students for the future."
         />
 
         <StaggerGroup className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
